@@ -14,7 +14,7 @@ public class CommonAPI {
 
     @BeforeMethod
     public void setUP(){
-        System.setProperty("webdriver.chrome.driver","/Users/dola/IdeaProjects/Netflix/Generic/Path/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/Users/dola/IdeaProjects/Lululeom/Generic/Path/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
